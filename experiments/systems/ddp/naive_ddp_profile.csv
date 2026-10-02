@@ -1,0 +1,2 @@
+implementation,model,world_size,global_batch_size,local_batch_size,context_length,vocab_size,precision,parameter_count,gradient_gib,warmup,repetitions,total_mean_ms,total_std_ms,communication_mean_ms,communication_std_ms,communication_fraction
+naive_per_parameter,large,2,4,2,512,10000,bf16,969411840,3.6113405227661133,1,1,300.15649646520615,0.0,57.744529098272324,0.0,0.19238140696037215

@@ -1,0 +1,7 @@
+{
+  "profile": "c1e17",
+  "model": "M50",
+  "target_compute_flops": 1e17,
+  "planned_train_tokens": 336134144,
+  "gpu_worker": 1
+}

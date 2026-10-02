@@ -1,0 +1,89 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-training-scaling"
+version = "0.1.0"
+description = "LLM training, GPU systems benchmarks, scaling experiments, and GRPO alignment"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "einops>=0.8",
+    "einx>=0.3",
+    "humanfriendly>=10",
+    "jaxtyping>=0.3",
+    "numpy>=1.26,<2.0",
+    "pandas>=2.2",
+    "psutil>=6",
+    "regex>=2024.11.6",
+    "tiktoken>=0.9",
+    "torch>=2.4",
+    "tqdm>=4.67",
+]
+
+[project.optional-dependencies]
+data = [
+    "datasets>=3",
+    "fasttext>=0.9.3",
+    "fastwarc>=0.15.2",
+    "furu==0.0.31",
+    "mmh3>=5.1",
+    "modal>=1.4",
+    "nltk>=3.9",
+    "polars>=1.40",
+    "resiliparse>=0.15.2",
+    "rich>=13",
+    "tldextract>=5.3",
+    "transformers>=4.50",
+    "warcio>=1.8",
+    "wandb>=0.19",
+    "xopen>=2.0",
+]
+alignment = [
+    "accelerate>=1.5",
+    "latex2sympy2-extended>=1.0.6",
+    "math-verify[antlr4-13-2]>=0.7",
+    "pylatexenc>=2.10",
+    "sympy>=1.13",
+    "transformers>=4.50",
+    "xopen>=2.0",
+]
+gpu = [
+    "triton>=3; sys_platform == 'linux'",
+    "vllm>=0.8",
+    "wandb>=0.19",
+]
+plots = [
+    "matplotlib>=3.9",
+]
+dev = [
+    "pytest>=8.3",
+    "pytest-timeout>=2.4",
+    "ruff>=0.15",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+log_cli = true
+log_cli_level = "WARNING"
+filterwarnings = [
+    "ignore::DeprecationWarning:torch.jit.*",
+    "ignore:Attempting to run cuBLAS:UserWarning",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+extend-select = ["UP"]
+ignore = ["F722"]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["F401"]

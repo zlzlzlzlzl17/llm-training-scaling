@@ -1,0 +1,51 @@
+WET chunks: 16
+Workers:    4
+Output:     runs/aistation_64wet/filtered
+============================================================
+processed=21000 kept=774
+processed=20000 kept=818
+[01/16] chunk_001: processed=25307 kept=925
+[02/16] chunk_000: processed=25404 kept=957
+[03/16] chunk_002: processed=25437 kept=927
+[04/16] chunk_003: processed=25988 kept=1003
+processed=4000 kept=135
+processed=7000 kept=260
+processed=6000 kept=189
+processed=8000 kept=287
+[05/16] chunk_005: processed=26298 kept=942
+[06/16] chunk_006: processed=25391 kept=940
+[07/16] chunk_004: processed=25636 kept=912
+[08/16] chunk_007: processed=25764 kept=875
+processed=8000 kept=307
+processed=10000 kept=384
+processed=13000 kept=463
+processed=14000 kept=499
+processed=22000 kept=778
+[09/16] chunk_008: processed=25274 kept=939
+[10/16] chunk_009: processed=25186 kept=975
+[11/16] chunk_011: processed=25189 kept=866
+[12/16] chunk_010: processed=26143 kept=955
+processed=7000 kept=258
+processed=14000 kept=514
+processed=17000 kept=594
+[13/16] chunk_012: processed=25343 kept=851
+[14/16] chunk_013: processed=24975 kept=887
+[15/16] chunk_014: processed=25681 kept=878
+[16/16] chunk_015: processed=25574 kept=936
+
+Batch filtering complete
+============================================================
+warc_records             408654
+conversion_records       408590
+empty                    0
+removed_gopher           46998
+removed_quality          346771
+removed_nsfw             32
+removed_toxic            21
+emails_masked            4596
+phones_masked            4694
+ips_masked               422
+kept                     14768
+============================================================
+Summary: runs/aistation_64wet/filtered/summary.json
+Samples: runs/aistation_64wet/filtered/combined_inspection_samples.json

@@ -1,0 +1,10 @@
+description: Completed iso-FLOP sweep. Exact run configs are stored beside each result.
+compute_budgets:
+  c1e17: [M20, M50, M120, M300]
+  c3e17: [M20, M50, M120, M300]
+  c8e17: [M50, M120, M300, M500]
+  c2e18: [M120, M300, M500, M800]
+precision: bfloat16
+attention_backend: sdpa
+seed: 0
+results: experiments/scaling/isoflops

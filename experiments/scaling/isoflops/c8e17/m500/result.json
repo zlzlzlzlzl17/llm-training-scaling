@@ -1,0 +1,117 @@
+{
+  "status": "completed",
+  "run_name": "c8e17_m500",
+  "total_parameters": 595611200,
+  "non_embedding_parameters": 493211200,
+  "approximate_non_embedding_parameters": 491520000,
+  "embedding_parameters": 51200000,
+  "lm_head_parameters": 51200000,
+  "total_train_tokens": 270336000,
+  "estimated_flops_non_embedding": 799996457779200000,
+  "estimated_flops_total_parameters": 966090896179200000,
+  "final_validation_loss": 3.639912762756158,
+  "validation_perplexity": 38.08851384349185,
+  "validation_history": [
+    {
+      "type": "validation",
+      "step": 516,
+      "tokens": 33816576,
+      "validation_loss": 4.7466809995522485,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.2419674079865217
+    },
+    {
+      "type": "validation",
+      "step": 1032,
+      "tokens": 67633152,
+      "validation_loss": 4.316784708341737,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.2446129200980067
+    },
+    {
+      "type": "validation",
+      "step": 1547,
+      "tokens": 101384192,
+      "validation_loss": 4.041684491783081,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.245641177520156
+    },
+    {
+      "type": "validation",
+      "step": 2063,
+      "tokens": 135200768,
+      "validation_loss": 3.888640186162854,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.240523840300739
+    },
+    {
+      "type": "validation",
+      "step": 2579,
+      "tokens": 169017344,
+      "validation_loss": 3.790138967716332,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.2443634951487184
+    },
+    {
+      "type": "validation",
+      "step": 3094,
+      "tokens": 202768384,
+      "validation_loss": 3.716328301542181,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.259605531580746
+    },
+    {
+      "type": "validation",
+      "step": 3610,
+      "tokens": 236584960,
+      "validation_loss": 3.667530733818082,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.2467274237424135
+    },
+    {
+      "type": "validation",
+      "step": 4125,
+      "tokens": 270336000,
+      "validation_loss": 3.639912762756158,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 3.2549958005547523
+    }
+  ],
+  "optimizer_steps": 4125,
+  "tokens_per_optimizer_step": 65536,
+  "wall_seconds": 9863.039259833284,
+  "validation_seconds": 25.978437596932054,
+  "training_seconds": 9837.060822236352,
+  "training_tokens_per_second": 27481.37933526998,
+  "peak_allocated_gpu_memory_gib": 17.70388650894165,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "torch_version": "2.4.0a0+f70bd71a48.nv24.06",
+  "cuda_runtime": "12.5",
+  "fused_optimizer": true,
+  "architecture": {
+    "vocab_size": 32000,
+    "context_length": 512,
+    "d_model": 1600,
+    "num_layers": 16,
+    "num_heads": 25,
+    "head_dim": 64,
+    "d_ff": 4288,
+    "rope_theta": 1000000.0,
+    "rms_norm_eps": 1e-06
+  },
+  "optimization": {
+    "micro_batch_size": 8,
+    "gradient_accumulation_steps": 16,
+    "peak_lr": 0.0003,
+    "final_lr_frac": 0.1,
+    "warmup_frac": 0.05,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "weight_decay": 0.01,
+    "adam_eps": 1e-08,
+    "max_grad_norm": 1.0,
+    "precision": "bfloat16",
+    "attention_backend": "sdpa",
+    "seed": 0
+  }
+}

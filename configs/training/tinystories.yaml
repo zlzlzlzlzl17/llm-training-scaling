@@ -1,0 +1,10 @@
+description: Reference TinyStories language-model training configuration.
+data:
+  train: data/tinystories/train.bin
+  validation: data/tinystories/validation.bin
+tokenizer: data/tinystories/tokenizer
+output_dir: outputs/tinystories
+seed: 0
+
+# The training script remains the source of truth for model and optimizer defaults.
+entry_point: scripts/training/train_language_model.py

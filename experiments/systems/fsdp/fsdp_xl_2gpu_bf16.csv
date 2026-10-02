@@ -1,0 +1,4 @@
+implementation,checkpoint,world_size,compute_dtype,global_batch_size,local_batch_size,context_length,allocated_gib,reserved_gib,phase_peak_gib,local_parameter_gib,local_gradient_gib,optimizer_state_gib,step_mean_ms,step_std_ms
+synchronous_fsdp,after_fsdp_initialization,2,bf16,4,2,512,6.406687259674072,6.416015625,6.4066877365112305,6.345987319946289,0.0,0.0,471.4307352900505,0.4928350207135723
+synchronous_fsdp,before_first_optimizer_step,2,bf16,4,2,512,12.799809455871582,15.470703125,15.156550884246826,6.345987319946289,6.345987319946289,0.0,471.4307352900505,0.4928350207135723
+synchronous_fsdp,after_first_optimizer_step,2,bf16,4,2,512,25.49666690826416,26.3515625,25.64315128326416,6.345987319946289,6.345987319946289,12.691975723952055,471.4307352900505,0.4928350207135723

@@ -1,0 +1,18 @@
+Input documents: 14768
+
+Running exact line deduplication...
+Exact-dedup outputs: 14768
+Empty after exact dedup: 282
+Non-empty after exact dedup: 14486
+
+Running MinHash + LSH deduplication...
+
+Deduplication complete
+==================================================
+Original documents:       14768
+After exact dedup:         14486
+Final output files:        14486
+Final non-empty documents: 14486
+Removed by MinHash:       0
+==================================================
+Final dataset: runs/aistation_64wet/final_documents

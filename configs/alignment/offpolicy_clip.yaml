@@ -1,0 +1,14 @@
+method: offpolicy_clip
+prompt_file: src/llm_training_scaling/alignment/prompts/r1_zero.prompt
+num_steps: 200
+n_train_examples: 6400
+n_val_examples: 1024
+rollout_batch_size: 256
+train_batch_size: 8
+group_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 1.0e-5
+advantage_normalizer: std
+loss_normalization: sequence
+importance_reweighting_method: grpo
+cliprange: 0.2

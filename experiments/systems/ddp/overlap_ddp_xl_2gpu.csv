@@ -1,0 +1,2 @@
+implementation,model,world_size,global_batch_size,local_batch_size,context_length,vocab_size,precision,parameter_count,gradient_gib,warmup,repetitions,total_mean_ms,total_std_ms,communication_mean_ms,communication_std_ms,communication_fraction
+overlap_individual_parameters,xl,2,4,2,512,10000,bf16,3406809600,12.691354751586914,3,5,360.2786973118782,0.7127452236934395,17.71451160311699,0.12236240769849137,0.04916891210967791

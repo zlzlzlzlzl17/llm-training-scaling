@@ -1,0 +1,17 @@
+description: Common Crawl WET filtering run represented in experiments/data_pipeline.
+manifest: data/commoncrawl/wet_paths.txt
+download_dir: data/commoncrawl/wet
+filtered_dir: outputs/data_pipeline/filtered
+deduplicated_dir: outputs/data_pipeline/deduplicated
+tokenized_output: outputs/data_pipeline/train.bin
+workers: 16
+tokenizer: gpt2
+
+stages:
+  - english_language_filter
+  - gopher_quality_rules
+  - learned_quality_classifier
+  - nsfw_and_toxicity_filter
+  - pii_masking
+  - exact_and_minhash_deduplication
+  - tokenization

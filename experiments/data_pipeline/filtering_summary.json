@@ -1,0 +1,290 @@
+{
+  "completed_chunks": 16,
+  "totals": {
+    "warc_records": 408654,
+    "conversion_records": 408590,
+    "empty": 0,
+    "removed_gopher": 46998,
+    "removed_quality": 346771,
+    "removed_nsfw": 32,
+    "removed_toxic": 21,
+    "emails_masked": 4596,
+    "phones_masked": 4694,
+    "ips_masked": 422,
+    "kept": 14768
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f4b6076e6d9387d89fe8/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25408,
+        "conversion_records": 25404,
+        "empty": 0,
+        "removed_gopher": 2911,
+        "removed_quality": 21534,
+        "removed_nsfw": 2,
+        "removed_toxic": 0,
+        "emails_masked": 236,
+        "phones_masked": 704,
+        "ips_masked": 3,
+        "kept": 957
+      }
+    },
+    {
+      "index": 1,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f6407c8645a737f1e8af/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25311,
+        "conversion_records": 25307,
+        "empty": 0,
+        "removed_gopher": 2741,
+        "removed_quality": 21639,
+        "removed_nsfw": 1,
+        "removed_toxic": 1,
+        "emails_masked": 290,
+        "phones_masked": 214,
+        "ips_masked": 79,
+        "kept": 925
+      }
+    },
+    {
+      "index": 2,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ea57c1233fce36f7644f/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25441,
+        "conversion_records": 25437,
+        "empty": 0,
+        "removed_gopher": 2841,
+        "removed_quality": 21667,
+        "removed_nsfw": 1,
+        "removed_toxic": 1,
+        "emails_masked": 269,
+        "phones_masked": 245,
+        "ips_masked": 23,
+        "kept": 927
+      }
+    },
+    {
+      "index": 3,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a83907c8ae1b96f12ef3/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25992,
+        "conversion_records": 25988,
+        "empty": 0,
+        "removed_gopher": 3395,
+        "removed_quality": 21584,
+        "removed_nsfw": 5,
+        "removed_toxic": 1,
+        "emails_masked": 389,
+        "phones_masked": 342,
+        "ips_masked": 13,
+        "kept": 1003
+      }
+    },
+    {
+      "index": 4,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/bb1a4fd1d2284c10b928/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25640,
+        "conversion_records": 25636,
+        "empty": 0,
+        "removed_gopher": 2834,
+        "removed_quality": 21887,
+        "removed_nsfw": 2,
+        "removed_toxic": 1,
+        "emails_masked": 349,
+        "phones_masked": 257,
+        "ips_masked": 8,
+        "kept": 912
+      }
+    },
+    {
+      "index": 5,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/4b1e2bc6aa74a8b2ec7b/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 26302,
+        "conversion_records": 26298,
+        "empty": 0,
+        "removed_gopher": 3878,
+        "removed_quality": 21472,
+        "removed_nsfw": 2,
+        "removed_toxic": 4,
+        "emails_masked": 243,
+        "phones_masked": 222,
+        "ips_masked": 11,
+        "kept": 942
+      }
+    },
+    {
+      "index": 6,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/866c0984dec5bd283d4d/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25395,
+        "conversion_records": 25391,
+        "empty": 0,
+        "removed_gopher": 2859,
+        "removed_quality": 21589,
+        "removed_nsfw": 3,
+        "removed_toxic": 0,
+        "emails_masked": 272,
+        "phones_masked": 562,
+        "ips_masked": 9,
+        "kept": 940
+      }
+    },
+    {
+      "index": 7,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a0aad95f92b5e8e83e01/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25768,
+        "conversion_records": 25764,
+        "empty": 0,
+        "removed_gopher": 3245,
+        "removed_quality": 21638,
+        "removed_nsfw": 2,
+        "removed_toxic": 4,
+        "emails_masked": 303,
+        "phones_masked": 220,
+        "ips_masked": 3,
+        "kept": 875
+      }
+    },
+    {
+      "index": 8,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/877e6bda18610d0cb443/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25278,
+        "conversion_records": 25274,
+        "empty": 0,
+        "removed_gopher": 2443,
+        "removed_quality": 21890,
+        "removed_nsfw": 1,
+        "removed_toxic": 1,
+        "emails_masked": 284,
+        "phones_masked": 239,
+        "ips_masked": 21,
+        "kept": 939
+      }
+    },
+    {
+      "index": 9,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/9e7f91c2057ed8869d4f/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25190,
+        "conversion_records": 25186,
+        "empty": 0,
+        "removed_gopher": 2657,
+        "removed_quality": 21551,
+        "removed_nsfw": 1,
+        "removed_toxic": 2,
+        "emails_masked": 393,
+        "phones_masked": 235,
+        "ips_masked": 10,
+        "kept": 975
+      }
+    },
+    {
+      "index": 10,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/8b3d3ffb7b549623ef30/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 26147,
+        "conversion_records": 26143,
+        "empty": 0,
+        "removed_gopher": 3410,
+        "removed_quality": 21778,
+        "removed_nsfw": 0,
+        "removed_toxic": 0,
+        "emails_masked": 274,
+        "phones_masked": 219,
+        "ips_masked": 17,
+        "kept": 955
+      }
+    },
+    {
+      "index": 11,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/70d4109cdfeb88254668/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25193,
+        "conversion_records": 25189,
+        "empty": 0,
+        "removed_gopher": 2590,
+        "removed_quality": 21727,
+        "removed_nsfw": 6,
+        "removed_toxic": 0,
+        "emails_masked": 217,
+        "phones_masked": 233,
+        "ips_masked": 24,
+        "kept": 866
+      }
+    },
+    {
+      "index": 12,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ff536ce932e25bbca702/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25347,
+        "conversion_records": 25343,
+        "empty": 0,
+        "removed_gopher": 2661,
+        "removed_quality": 21829,
+        "removed_nsfw": 2,
+        "removed_toxic": 0,
+        "emails_masked": 210,
+        "phones_masked": 223,
+        "ips_masked": 15,
+        "kept": 851
+      }
+    },
+    {
+      "index": 13,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/3c9fdfde8916a23fb069/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 24979,
+        "conversion_records": 24975,
+        "empty": 0,
+        "removed_gopher": 2548,
+        "removed_quality": 21535,
+        "removed_nsfw": 1,
+        "removed_toxic": 4,
+        "emails_masked": 284,
+        "phones_masked": 231,
+        "ips_masked": 162,
+        "kept": 887
+      }
+    },
+    {
+      "index": 14,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/09c41c3a3ab8d1dc01ba/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25685,
+        "conversion_records": 25681,
+        "empty": 0,
+        "removed_gopher": 3027,
+        "removed_quality": 21776,
+        "removed_nsfw": 0,
+        "removed_toxic": 0,
+        "emails_masked": 279,
+        "phones_masked": 308,
+        "ips_masked": 9,
+        "kept": 878
+      }
+    },
+    {
+      "index": 15,
+      "wet_path": "/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/058c2cdd4ec6e54ab833/data.warc.wet.gz",
+      "stats": {
+        "warc_records": 25578,
+        "conversion_records": 25574,
+        "empty": 0,
+        "removed_gopher": 2958,
+        "removed_quality": 21675,
+        "removed_nsfw": 3,
+        "removed_toxic": 2,
+        "emails_masked": 304,
+        "phones_masked": 240,
+        "ips_masked": 15,
+        "kept": 936
+      }
+    }
+  ]
+}

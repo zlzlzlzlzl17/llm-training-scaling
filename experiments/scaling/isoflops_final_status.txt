@@ -1,0 +1,21 @@
+state=completed
+timestamp=2026-08-01T20:32:18+00:00
+completed_runs=16
+
+Result files:
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c1e17/m120/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c1e17/m20/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c1e17/m300/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c1e17/m50/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c2e18/m120/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c2e18/m300/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c2e18/m500/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c2e18/m800/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c3e17/m120/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c3e17/m20/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c3e17/m300/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c3e17/m50/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c8e17/m120/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c8e17/m300/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c8e17/m50/result.json
+/zhuliangzilu/assignment3_scaling/runs/isoflops/c8e17/m500/result.json

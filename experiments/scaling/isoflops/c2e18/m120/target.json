@@ -1,0 +1,7 @@
+{
+  "profile": "c2e18",
+  "model": "M120",
+  "target_compute_flops": 2e18,
+  "planned_train_tokens": 2848980992,
+  "gpu_worker": 0
+}

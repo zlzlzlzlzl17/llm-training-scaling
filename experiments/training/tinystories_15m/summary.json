@@ -1,0 +1,12 @@
+{
+  "train_log_entries": 501,
+  "validation_log_entries": 20,
+  "final_train_step": 5000,
+  "final_train_loss": 2.1138,
+  "final_validation_step": 5000,
+  "final_validation_loss": 2.2002,
+  "final_perplexity": 9.026818682646313,
+  "best_validation_step": 4500,
+  "best_validation_loss": 2.1792,
+  "best_validation_perplexity": 8.839232043777173
+}

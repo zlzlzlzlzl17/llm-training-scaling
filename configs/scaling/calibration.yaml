@@ -1,0 +1,8 @@
+description: Fixed-token calibration sweep used to measure throughput and memory.
+models: [M20, M50, M120, M300, M500, M800]
+total_train_tokens: 6553600
+precision: bfloat16
+attention_backend: sdpa
+peak_lr: 0.0003
+seed: 0
+results: experiments/scaling/calibration

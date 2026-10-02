@@ -1,0 +1,12 @@
+models:
+  M20:  {layers: 6,  d_model: 512,  heads: 8,  d_ff: 1408, micro_batch: 64, grad_accum: 2}
+  M50:  {layers: 10, d_model: 640,  heads: 10, d_ff: 1728, micro_batch: 32, grad_accum: 4}
+  M120: {layers: 12, d_model: 896,  heads: 14, d_ff: 2432, micro_batch: 16, grad_accum: 8}
+  M300: {layers: 15, d_model: 1280, heads: 20, d_ff: 3456, micro_batch: 8,  grad_accum: 16}
+  M500: {layers: 16, d_model: 1600, heads: 25, d_ff: 4288, micro_batch: 4,  grad_accum: 32}
+  M800: {layers: 16, d_model: 2048, heads: 32, d_ff: 5504, micro_batch: 2,  grad_accum: 64}
+
+shared:
+  vocab_size: 32000
+  context_length: 512
+  global_batch_tokens: 65536

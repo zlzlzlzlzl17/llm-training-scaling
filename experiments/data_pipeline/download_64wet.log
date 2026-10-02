@@ -1,0 +1,461 @@
+2026-08-02 03:53:07 INFO [furu] calling EnglishWetFiles:ae4fa:8672d.load_or_create()
+2026-08-02 03:53:07 INFO [furu] Loading WET paths from https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/wet.paths.gz
+2026-08-02 03:53:08 INFO [furu] Selected 64 WET files for crawl CC-MAIN-2026-17
+2026-08-02 03:53:08 INFO [furu] Making 16 English WET files
+2026-08-02 03:53:08 INFO [furu] Downloading WET files locally
+2026-08-02 03:53:08 INFO [furu] calling _EnglishWetFile:2f774:f4b60.load_or_create()
+2026-08-02 03:53:08 INFO [furu] Loading English language identifier
+2026-08-02 03:53:08 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 03:53:08 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909226.11/wet/CC-MAIN-20260418061813-20260418091813-00978.warc.wet.gz to /tmp/CC-MAIN-20260418061813-20260418091813-00978.warc.wet.gz
+2026-08-02 03:53:52 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908715.64/wet/CC-MAIN-20260412215615-20260413005615-00619.warc.wet.gz to /tmp/CC-MAIN-20260412215615-20260413005615-00619.warc.wet.gz
+2026-08-02 03:54:24 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909127.26/wet/CC-MAIN-20260417112009-20260417142009-00667.warc.wet.gz to /tmp/CC-MAIN-20260417112009-20260417142009-00667.warc.wet.gz
+2026-08-02 03:54:53 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908453.38/wet/CC-MAIN-20260410154802-20260410184802-00415.warc.wet.gz to /tmp/CC-MAIN-20260410154802-20260410184802-00415.warc.wet.gz
+2026-08-02 03:55:28 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f4b6076e6d9387d89fe8/data.warc.wet.gz, kept 29.21% of text
+2026-08-02 03:55:28 INFO [furu] _EnglishWetFile:2f774:f4b60.load_or_create() returned
+2026-08-02 03:55:28 INFO [furu] Completed 1/16 WET chunks
+2026-08-02 03:55:28 INFO [furu] calling _EnglishWetFile:2f774:f6407.load_or_create()
+2026-08-02 03:55:28 INFO [furu] Loading English language identifier
+2026-08-02 03:55:28 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 03:55:28 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909216.76/wet/CC-MAIN-20260417235941-20260418025941-00969.warc.wet.gz to /tmp/CC-MAIN-20260417235941-20260418025941-00969.warc.wet.gz
+2026-08-02 03:55:58 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908886.5/wet/CC-MAIN-20260415055744-20260415085744-00820.warc.wet.gz to /tmp/CC-MAIN-20260415055744-20260415085744-00820.warc.wet.gz
+2026-08-02 03:56:27 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908993.17/wet/CC-MAIN-20260416035750-20260416065750-00172.warc.wet.gz to /tmp/CC-MAIN-20260416035750-20260416065750-00172.warc.wet.gz
+2026-08-02 03:57:03 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908453.38/wet/CC-MAIN-20260410154802-20260410184802-00008.warc.wet.gz to /tmp/CC-MAIN-20260410154802-20260410184802-00008.warc.wet.gz
+2026-08-02 03:57:09 ERROR [furu] load_or_create failed
+Traceback (most recent call last):
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1358, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1404, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1113, in _send_output
+    self.send(msg)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1057, in send
+    self.connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1492, in connect
+    super().connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1023, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 210, in _execute_group
+    results = [obj._create() for obj in group]
+               ^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/cs336_data/wet_files.py", line 63, in _create
+    urllib.request.urlretrieve(
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-08-02 03:57:09 ERROR [furu] load_or_create failed
+Traceback (most recent call last):
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1358, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1404, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1113, in _send_output
+    self.send(msg)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1057, in send
+    self.connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1492, in connect
+    super().connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1023, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 210, in _execute_group
+    results = [obj._create() for obj in group]
+               ^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/cs336_data/wet_files.py", line 222, in _create
+    wet_file.load_or_create()
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/core.py", line 74, in load_or_create
+    return load_or_create(self, use_lock=use_lock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 176, in load_or_create
+    _execute_group(group, has_lock=has_lock, results_by_dir=results_by_dir)
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 210, in _execute_group
+    results = [obj._create() for obj in group]
+               ^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/cs336_data/wet_files.py", line 63, in _create
+    urllib.request.urlretrieve(
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+Traceback (most recent call last):
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1358, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1404, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1113, in _send_output
+    self.send(msg)
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1057, in send
+    self.connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1492, in connect
+    super().connect()
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1023, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/zhuliangzilu/assignment4-data/scripts/download_many_wet.py", line 68, in <module>
+    main()
+  File "/zhuliangzilu/assignment4-data/scripts/download_many_wet.py", line 44, in main
+    paths = dataset.load_or_create()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/core.py", line 74, in load_or_create
+    return load_or_create(self, use_lock=use_lock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 176, in load_or_create
+    _execute_group(group, has_lock=has_lock, results_by_dir=results_by_dir)
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 210, in _execute_group
+    results = [obj._create() for obj in group]
+               ^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/cs336_data/wet_files.py", line 222, in _create
+    wet_file.load_or_create()
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/core.py", line 74, in load_or_create
+    return load_or_create(self, use_lock=use_lock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 176, in load_or_create
+    _execute_group(group, has_lock=has_lock, results_by_dir=results_by_dir)
+  File "/zhuliangzilu/assignment4-data/.venv/lib/python3.12/site-packages/furu/execution.py", line 210, in _execute_group
+    results = [obj._create() for obj in group]
+               ^^^^^^^^^^^^^
+  File "/zhuliangzilu/assignment4-data/cs336_data/wet_files.py", line 63, in _create
+    urllib.request.urlretrieve(
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2026-08-02 04:00:25 INFO [furu] calling EnglishWetFiles:ae4fa:8672d.load_or_create()
+2026-08-02 04:00:25 INFO [furu] Loading WET paths from https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/wet.paths.gz
+2026-08-02 04:00:26 INFO [furu] Selected 64 WET files for crawl CC-MAIN-2026-17
+2026-08-02 04:00:26 INFO [furu] Making 16 English WET files
+2026-08-02 04:00:26 INFO [furu] Downloading WET files locally
+2026-08-02 04:00:26 INFO [furu] calling _EnglishWetFile:2f774:f4b60.load_or_create()
+2026-08-02 04:00:26 INFO [furu] cache hit for _EnglishWetFile:2f774:f4b60 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f4b6076e6d9387d89fe8/result
+2026-08-02 04:00:26 INFO [furu] _EnglishWetFile:2f774:f4b60.load_or_create() returned
+2026-08-02 04:00:26 INFO [furu] Completed 1/16 WET chunks
+2026-08-02 04:00:26 INFO [furu] calling _EnglishWetFile:2f774:f6407.load_or_create()
+2026-08-02 04:00:26 INFO [furu] Loading English language identifier
+2026-08-02 04:00:26 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:00:26 INFO [furu] Using cached WET file /tmp/CC-MAIN-20260417235941-20260418025941-00969.warc.wet.gz
+2026-08-02 04:00:48 INFO [furu] Using cached WET file /tmp/CC-MAIN-20260415055744-20260415085744-00820.warc.wet.gz
+2026-08-02 04:01:10 INFO [furu] Using cached WET file /tmp/CC-MAIN-20260416035750-20260416065750-00172.warc.wet.gz
+2026-08-02 04:01:31 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908453.38/wet/CC-MAIN-20260410154802-20260410184802-00008.warc.wet.gz to /tmp/CC-MAIN-20260410154802-20260410184802-00008.warc.wet.gz
+2026-08-02 04:02:03 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f6407c8645a737f1e8af/data.warc.wet.gz, kept 28.24% of text
+2026-08-02 04:02:03 INFO [furu] _EnglishWetFile:2f774:f6407.load_or_create() returned
+2026-08-02 04:02:03 INFO [furu] Completed 2/16 WET chunks
+2026-08-02 04:02:03 INFO [furu] calling _EnglishWetFile:2f774:ea57c.load_or_create()
+2026-08-02 04:02:03 INFO [furu] Loading English language identifier
+2026-08-02 04:02:03 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:02:03 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806209857.79/wet/CC-MAIN-20260422041508-20260422071508-00427.warc.wet.gz to /tmp/CC-MAIN-20260422041508-20260422071508-00427.warc.wet.gz
+2026-08-02 04:04:43 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909571.51/wet/CC-MAIN-20260420022045-20260420052045-00306.warc.wet.gz to /tmp/CC-MAIN-20260420022045-20260420052045-00306.warc.wet.gz
+2026-08-02 04:05:24 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908543.7/wet/CC-MAIN-20260411041343-20260411071343-00034.warc.wet.gz to /tmp/CC-MAIN-20260411041343-20260411071343-00034.warc.wet.gz
+2026-08-02 04:05:53 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908887.83/wet/CC-MAIN-20260415090232-20260415120232-00026.warc.wet.gz to /tmp/CC-MAIN-20260415090232-20260415120232-00026.warc.wet.gz
+2026-08-02 04:06:54 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ea57c1233fce36f7644f/data.warc.wet.gz, kept 28.16% of text
+2026-08-02 04:06:54 INFO [furu] _EnglishWetFile:2f774:ea57c.load_or_create() returned
+2026-08-02 04:06:54 INFO [furu] Completed 3/16 WET chunks
+2026-08-02 04:06:54 INFO [furu] calling _EnglishWetFile:2f774:a8390.load_or_create()
+2026-08-02 04:06:54 INFO [furu] Loading English language identifier
+2026-08-02 04:06:54 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:06:54 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909379.39/wet/CC-MAIN-20260419072330-20260419102330-00916.warc.wet.gz to /tmp/CC-MAIN-20260419072330-20260419102330-00916.warc.wet.gz
+2026-08-02 04:07:34 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908881.15/wet/CC-MAIN-20260415025300-20260415055300-00903.warc.wet.gz to /tmp/CC-MAIN-20260415025300-20260415055300-00903.warc.wet.gz
+2026-08-02 04:08:21 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908651.22/wet/CC-MAIN-20260411194848-20260411224848-00507.warc.wet.gz to /tmp/CC-MAIN-20260411194848-20260411224848-00507.warc.wet.gz
+2026-08-02 04:09:02 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908674.53/wet/CC-MAIN-20260412081113-20260412111113-00644.warc.wet.gz to /tmp/CC-MAIN-20260412081113-20260412111113-00644.warc.wet.gz
+2026-08-02 04:09:39 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a83907c8ae1b96f12ef3/data.warc.wet.gz, kept 28.44% of text
+2026-08-02 04:09:39 INFO [furu] _EnglishWetFile:2f774:a8390.load_or_create() returned
+2026-08-02 04:09:39 INFO [furu] Completed 4/16 WET chunks
+2026-08-02 04:09:39 INFO [furu] calling _EnglishWetFile:2f774:bb1a4.load_or_create()
+2026-08-02 04:09:39 INFO [furu] Loading English language identifier
+2026-08-02 04:09:39 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:09:39 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909086.24/wet/CC-MAIN-20260417015642-20260417045642-00712.warc.wet.gz to /tmp/CC-MAIN-20260417015642-20260417045642-00712.warc.wet.gz
+2026-08-02 04:10:14 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908715.64/wet/CC-MAIN-20260412215615-20260413005615-00986.warc.wet.gz to /tmp/CC-MAIN-20260412215615-20260413005615-00986.warc.wet.gz
+2026-08-02 04:11:03 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908594.12/wet/CC-MAIN-20260414111600-20260414141600-00977.warc.wet.gz to /tmp/CC-MAIN-20260414111600-20260414141600-00977.warc.wet.gz
+2026-08-02 04:11:40 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806209489.81/wet/CC-MAIN-20260421185032-20260421215032-00273.warc.wet.gz to /tmp/CC-MAIN-20260421185032-20260421215032-00273.warc.wet.gz
+2026-08-02 04:12:27 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/bb1a4fd1d2284c10b928/data.warc.wet.gz, kept 29.25% of text
+2026-08-02 04:12:27 INFO [furu] _EnglishWetFile:2f774:bb1a4.load_or_create() returned
+2026-08-02 04:12:27 INFO [furu] Completed 5/16 WET chunks
+2026-08-02 04:12:27 INFO [furu] calling _EnglishWetFile:2f774:4b1e2.load_or_create()
+2026-08-02 04:12:27 INFO [furu] Loading English language identifier
+2026-08-02 04:12:27 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:12:27 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908690.28/wet/CC-MAIN-20260412123146-20260412153146-00831.warc.wet.gz to /tmp/CC-MAIN-20260412123146-20260412153146-00831.warc.wet.gz
+2026-08-02 04:13:01 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908669.31/wet/CC-MAIN-20260412050224-20260412080224-00158.warc.wet.gz to /tmp/CC-MAIN-20260412050224-20260412080224-00158.warc.wet.gz
+2026-08-02 04:13:39 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909319.77/wet/CC-MAIN-20260418185138-20260418215138-00745.warc.wet.gz to /tmp/CC-MAIN-20260418185138-20260418215138-00745.warc.wet.gz
+2026-08-02 04:14:32 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908674.53/wet/CC-MAIN-20260412081113-20260412111113-00510.warc.wet.gz to /tmp/CC-MAIN-20260412081113-20260412111113-00510.warc.wet.gz
+2026-08-02 04:15:31 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/4b1e2bc6aa74a8b2ec7b/data.warc.wet.gz, kept 27.90% of text
+2026-08-02 04:15:31 INFO [furu] _EnglishWetFile:2f774:4b1e2.load_or_create() returned
+2026-08-02 04:15:31 INFO [furu] Completed 6/16 WET chunks
+2026-08-02 04:15:31 INFO [furu] calling _EnglishWetFile:2f774:866c0.load_or_create()
+2026-08-02 04:15:31 INFO [furu] Loading English language identifier
+2026-08-02 04:15:31 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:15:31 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909603.95/wet/CC-MAIN-20260420052925-20260420082925-00049.warc.wet.gz to /tmp/CC-MAIN-20260420052925-20260420082925-00049.warc.wet.gz
+2026-08-02 04:16:13 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908935.71/wet/CC-MAIN-20260416004801-20260416034801-00810.warc.wet.gz to /tmp/CC-MAIN-20260416004801-20260416034801-00810.warc.wet.gz
+2026-08-02 04:17:07 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909049.85/wet/CC-MAIN-20260416193934-20260416223934-00883.warc.wet.gz to /tmp/CC-MAIN-20260416193934-20260416223934-00883.warc.wet.gz
+2026-08-02 04:17:42 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909127.26/wet/CC-MAIN-20260417112009-20260417142009-00551.warc.wet.gz to /tmp/CC-MAIN-20260417112009-20260417142009-00551.warc.wet.gz
+2026-08-02 04:18:35 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/866c0984dec5bd283d4d/data.warc.wet.gz, kept 27.90% of text
+2026-08-02 04:18:35 INFO [furu] _EnglishWetFile:2f774:866c0.load_or_create() returned
+2026-08-02 04:18:35 INFO [furu] Completed 7/16 WET chunks
+2026-08-02 04:18:35 INFO [furu] calling _EnglishWetFile:2f774:a0aad.load_or_create()
+2026-08-02 04:18:35 INFO [furu] Loading English language identifier
+2026-08-02 04:18:35 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:18:35 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806210626.96/wet/CC-MAIN-20260422072350-20260422102350-00333.warc.wet.gz to /tmp/CC-MAIN-20260422072350-20260422102350-00333.warc.wet.gz
+2026-08-02 04:19:30 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908993.17/wet/CC-MAIN-20260416035750-20260416065750-00963.warc.wet.gz to /tmp/CC-MAIN-20260416035750-20260416065750-00963.warc.wet.gz
+2026-08-02 04:20:03 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908721.20/wet/CC-MAIN-20260413040425-20260413070425-00842.warc.wet.gz to /tmp/CC-MAIN-20260413040425-20260413070425-00842.warc.wet.gz
+2026-08-02 04:20:59 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908676.56/wet/CC-MAIN-20260412111925-20260412141925-00351.warc.wet.gz to /tmp/CC-MAIN-20260412111925-20260412141925-00351.warc.wet.gz
+2026-08-02 04:25:05 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a0aad95f92b5e8e83e01/data.warc.wet.gz, kept 28.13% of text
+2026-08-02 04:25:05 INFO [furu] _EnglishWetFile:2f774:a0aad.load_or_create() returned
+2026-08-02 04:25:05 INFO [furu] Completed 8/16 WET chunks
+2026-08-02 04:25:05 INFO [furu] calling _EnglishWetFile:2f774:877e6.load_or_create()
+2026-08-02 04:25:05 INFO [furu] Loading English language identifier
+2026-08-02 04:25:05 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:25:05 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806207228.54/wet/CC-MAIN-20260421123315-20260421153315-00993.warc.wet.gz to /tmp/CC-MAIN-20260421123315-20260421153315-00993.warc.wet.gz
+2026-08-02 04:25:58 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909319.77/wet/CC-MAIN-20260418185138-20260418215138-00036.warc.wet.gz to /tmp/CC-MAIN-20260418185138-20260418215138-00036.warc.wet.gz
+2026-08-02 04:26:34 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908913.4/wet/CC-MAIN-20260415182819-20260415212819-00741.warc.wet.gz to /tmp/CC-MAIN-20260415182819-20260415212819-00741.warc.wet.gz
+2026-08-02 04:27:33 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908765.65/wet/CC-MAIN-20260413101656-20260413131656-00618.warc.wet.gz to /tmp/CC-MAIN-20260413101656-20260413131656-00618.warc.wet.gz
+2026-08-02 04:28:32 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/877e6bda18610d0cb443/data.warc.wet.gz, kept 29.41% of text
+2026-08-02 04:28:32 INFO [furu] _EnglishWetFile:2f774:877e6.load_or_create() returned
+2026-08-02 04:28:32 INFO [furu] Completed 9/16 WET chunks
+2026-08-02 04:28:32 INFO [furu] calling _EnglishWetFile:2f774:9e7f9.load_or_create()
+2026-08-02 04:28:32 INFO [furu] Loading English language identifier
+2026-08-02 04:28:32 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:28:32 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909049.85/wet/CC-MAIN-20260416193934-20260416223934-00726.warc.wet.gz to /tmp/CC-MAIN-20260416193934-20260416223934-00726.warc.wet.gz
+2026-08-02 04:29:24 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806210750.80/wet/CC-MAIN-20260422103113-20260422133113-00251.warc.wet.gz to /tmp/CC-MAIN-20260422103113-20260422133113-00251.warc.wet.gz
+2026-08-02 04:30:38 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908993.17/wet/CC-MAIN-20260416035750-20260416065750-00631.warc.wet.gz to /tmp/CC-MAIN-20260416035750-20260416065750-00631.warc.wet.gz
+2026-08-02 04:31:31 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908893.6/wet/CC-MAIN-20260415120952-20260415150952-00002.warc.wet.gz to /tmp/CC-MAIN-20260415120952-20260415150952-00002.warc.wet.gz
+2026-08-02 04:32:44 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/9e7f91c2057ed8869d4f/data.warc.wet.gz, kept 28.52% of text
+2026-08-02 04:32:44 INFO [furu] _EnglishWetFile:2f774:9e7f9.load_or_create() returned
+2026-08-02 04:32:44 INFO [furu] Completed 10/16 WET chunks
+2026-08-02 04:32:44 INFO [furu] calling _EnglishWetFile:2f774:8b3d3.load_or_create()
+2026-08-02 04:32:44 INFO [furu] Loading English language identifier
+2026-08-02 04:32:44 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:32:44 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908720.29/wet/CC-MAIN-20260413010038-20260413040038-00844.warc.wet.gz to /tmp/CC-MAIN-20260413010038-20260413040038-00844.warc.wet.gz
+2026-08-02 04:33:38 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908706.19/wet/CC-MAIN-20260412184625-20260412214625-00941.warc.wet.gz to /tmp/CC-MAIN-20260412184625-20260412214625-00941.warc.wet.gz
+2026-08-02 04:34:40 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909368.33/wet/CC-MAIN-20260419010731-20260419040731-00444.warc.wet.gz to /tmp/CC-MAIN-20260419010731-20260419040731-00444.warc.wet.gz
+2026-08-02 04:35:24 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908994.37/wet/CC-MAIN-20260416070741-20260416100741-00355.warc.wet.gz to /tmp/CC-MAIN-20260416070741-20260416100741-00355.warc.wet.gz
+2026-08-02 04:36:19 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/8b3d3ffb7b549623ef30/data.warc.wet.gz, kept 29.13% of text
+2026-08-02 04:36:19 INFO [furu] _EnglishWetFile:2f774:8b3d3.load_or_create() returned
+2026-08-02 04:36:19 INFO [furu] Completed 11/16 WET chunks
+2026-08-02 04:36:19 INFO [furu] calling _EnglishWetFile:2f774:70d41.load_or_create()
+2026-08-02 04:36:19 INFO [furu] Loading English language identifier
+2026-08-02 04:36:19 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:36:19 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806214497.89/wet/CC-MAIN-20260423020417-20260423050417-00583.warc.wet.gz to /tmp/CC-MAIN-20260423020417-20260423050417-00583.warc.wet.gz
+2026-08-02 04:36:54 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908784.42/wet/CC-MAIN-20260414015447-20260414045447-00295.warc.wet.gz to /tmp/CC-MAIN-20260414015447-20260414045447-00295.warc.wet.gz
+2026-08-02 04:39:54 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806205726.52/wet/CC-MAIN-20260420210113-20260421000113-00402.warc.wet.gz to /tmp/CC-MAIN-20260420210113-20260421000113-00402.warc.wet.gz
+2026-08-02 04:41:00 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908305.14/wet/CC-MAIN-20260410081153-20260410111153-00816.warc.wet.gz to /tmp/CC-MAIN-20260410081153-20260410111153-00816.warc.wet.gz
+2026-08-02 04:41:45 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/70d4109cdfeb88254668/data.warc.wet.gz, kept 28.15% of text
+2026-08-02 04:41:45 INFO [furu] _EnglishWetFile:2f774:70d41.load_or_create() returned
+2026-08-02 04:41:45 INFO [furu] Completed 12/16 WET chunks
+2026-08-02 04:41:46 INFO [furu] calling _EnglishWetFile:2f774:ff536.load_or_create()
+2026-08-02 04:41:46 INFO [furu] Loading English language identifier
+2026-08-02 04:41:46 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 04:41:46 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806204943.78/wet/CC-MAIN-20260420175623-20260420205623-00749.warc.wet.gz to /tmp/CC-MAIN-20260420175623-20260420205623-00749.warc.wet.gz
+2026-08-02 04:43:20 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909333.67/wet/CC-MAIN-20260418220012-20260419010012-00366.warc.wet.gz to /tmp/CC-MAIN-20260418220012-20260419010012-00366.warc.wet.gz
+2026-08-02 05:16:44 INFO [furu] calling EnglishWetFiles:ae4fa:8672d.load_or_create()
+2026-08-02 05:16:44 INFO [furu] Loading WET paths from https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/wet.paths.gz
+2026-08-02 05:16:48 INFO [furu] Selected 64 WET files for crawl CC-MAIN-2026-17
+2026-08-02 05:16:48 INFO [furu] Making 16 English WET files
+2026-08-02 05:16:48 INFO [furu] Downloading WET files locally
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:f4b60.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:f4b60 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f4b6076e6d9387d89fe8/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:f4b60.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 1/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:f6407.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:f6407 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f6407c8645a737f1e8af/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:f6407.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 2/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:ea57c.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:ea57c at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ea57c1233fce36f7644f/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:ea57c.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 3/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:a8390.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:a8390 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a83907c8ae1b96f12ef3/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:a8390.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 4/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:bb1a4.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:bb1a4 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/bb1a4fd1d2284c10b928/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:bb1a4.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 5/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:4b1e2.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:4b1e2 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/4b1e2bc6aa74a8b2ec7b/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:4b1e2.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 6/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:866c0.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:866c0 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/866c0984dec5bd283d4d/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:866c0.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 7/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:a0aad.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:a0aad at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a0aad95f92b5e8e83e01/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:a0aad.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 8/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:877e6.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:877e6 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/877e6bda18610d0cb443/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:877e6.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 9/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:9e7f9.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:9e7f9 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/9e7f91c2057ed8869d4f/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:9e7f9.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 10/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:8b3d3.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:8b3d3 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/8b3d3ffb7b549623ef30/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:8b3d3.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 11/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:70d41.load_or_create()
+2026-08-02 05:16:48 INFO [furu] cache hit for _EnglishWetFile:2f774:70d41 at /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/70d4109cdfeb88254668/result
+2026-08-02 05:16:48 INFO [furu] _EnglishWetFile:2f774:70d41.load_or_create() returned
+2026-08-02 05:16:48 INFO [furu] Completed 12/16 WET chunks
+2026-08-02 05:16:48 INFO [furu] calling _EnglishWetFile:2f774:ff536.load_or_create()
+2026-08-02 05:16:48 INFO [furu] Loading English language identifier
+2026-08-02 05:16:48 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 05:16:48 INFO [furu] Using cached WET file /tmp/CC-MAIN-20260420175623-20260420205623-00749.warc.wet.gz
+2026-08-02 05:17:10 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909333.67/wet/CC-MAIN-20260418220012-20260419010012-00366.warc.wet.gz to /tmp/CC-MAIN-20260418220012-20260419010012-00366.warc.wet.gz
+2026-08-02 05:17:55 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806207080.87/wet/CC-MAIN-20260421092814-20260421122814-00665.warc.wet.gz to /tmp/CC-MAIN-20260421092814-20260421122814-00665.warc.wet.gz
+2026-08-02 05:18:57 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908633.72/wet/CC-MAIN-20260411103300-20260411133300-00287.warc.wet.gz to /tmp/CC-MAIN-20260411103300-20260411133300-00287.warc.wet.gz
+2026-08-02 05:19:54 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ff536ce932e25bbca702/data.warc.wet.gz, kept 28.03% of text
+2026-08-02 05:19:54 INFO [furu] _EnglishWetFile:2f774:ff536.load_or_create() returned
+2026-08-02 05:19:54 INFO [furu] Completed 13/16 WET chunks
+2026-08-02 05:19:54 INFO [furu] calling _EnglishWetFile:2f774:3c9fd.load_or_create()
+2026-08-02 05:19:54 INFO [furu] Loading English language identifier
+2026-08-02 05:19:54 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 05:19:54 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908371.10/wet/CC-MAIN-20260410112043-20260410142043-00622.warc.wet.gz to /tmp/CC-MAIN-20260410112043-20260410142043-00622.warc.wet.gz
+2026-08-02 05:26:16 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806214497.89/wet/CC-MAIN-20260423020417-20260423050417-00541.warc.wet.gz to /tmp/CC-MAIN-20260423020417-20260423050417-00541.warc.wet.gz
+2026-08-02 05:26:55 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909379.49/wet/CC-MAIN-20260419103210-20260419133210-00945.warc.wet.gz to /tmp/CC-MAIN-20260419103210-20260419133210-00945.warc.wet.gz
+2026-08-02 05:27:26 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909160.40/wet/CC-MAIN-20260417173955-20260417203955-00728.warc.wet.gz to /tmp/CC-MAIN-20260417173955-20260417203955-00728.warc.wet.gz
+2026-08-02 05:28:01 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/3c9fdfde8916a23fb069/data.warc.wet.gz, kept 27.77% of text
+2026-08-02 05:28:01 INFO [furu] _EnglishWetFile:2f774:3c9fd.load_or_create() returned
+2026-08-02 05:28:01 INFO [furu] Completed 14/16 WET chunks
+2026-08-02 05:28:01 INFO [furu] calling _EnglishWetFile:2f774:09c41.load_or_create()
+2026-08-02 05:28:01 INFO [furu] Loading English language identifier
+2026-08-02 05:28:01 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 05:28:01 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908676.56/wet/CC-MAIN-20260412111925-20260412141925-00495.warc.wet.gz to /tmp/CC-MAIN-20260412111925-20260412141925-00495.warc.wet.gz
+2026-08-02 05:28:39 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805910015.98/wet/CC-MAIN-20260420114528-20260420144528-00515.warc.wet.gz to /tmp/CC-MAIN-20260420114528-20260420144528-00515.warc.wet.gz
+2026-08-02 05:30:53 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908512.45/wet/CC-MAIN-20260410215827-20260411005827-00645.warc.wet.gz to /tmp/CC-MAIN-20260410215827-20260411005827-00645.warc.wet.gz
+2026-08-02 05:46:17 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806206404.90/wet/CC-MAIN-20260421062046-20260421092046-00803.warc.wet.gz to /tmp/CC-MAIN-20260421062046-20260421092046-00803.warc.wet.gz
+2026-08-02 05:47:11 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/09c41c3a3ab8d1dc01ba/data.warc.wet.gz, kept 27.39% of text
+2026-08-02 05:47:11 INFO [furu] _EnglishWetFile:2f774:09c41.load_or_create() returned
+2026-08-02 05:47:11 INFO [furu] Completed 15/16 WET chunks
+2026-08-02 05:47:11 INFO [furu] calling _EnglishWetFile:2f774:058c2.load_or_create()
+2026-08-02 05:47:11 INFO [furu] Loading English language identifier
+2026-08-02 05:47:11 INFO [furu] Processing WET chunk (4 files)
+2026-08-02 05:47:11 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806207080.87/wet/CC-MAIN-20260421092814-20260421122814-00050.warc.wet.gz to /tmp/CC-MAIN-20260421092814-20260421122814-00050.warc.wet.gz
+2026-08-02 05:48:07 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775806206404.90/wet/CC-MAIN-20260421062046-20260421092046-00841.warc.wet.gz to /tmp/CC-MAIN-20260421062046-20260421092046-00841.warc.wet.gz
+2026-08-02 05:49:15 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805908756.16/wet/CC-MAIN-20260413071237-20260413101237-00123.warc.wet.gz to /tmp/CC-MAIN-20260413071237-20260413101237-00123.warc.wet.gz
+2026-08-02 05:49:53 INFO [furu] Downloading https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-17/segments/1775805909258.0/wet/CC-MAIN-20260418092809-20260418122809-00836.warc.wet.gz to /tmp/CC-MAIN-20260418092809-20260418122809-00836.warc.wet.gz
+2026-08-02 05:50:55 INFO [furu] Finished WET chunk: wrote /zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/058c2cdd4ec6e54ab833/data.warc.wet.gz, kept 28.48% of text
+2026-08-02 05:50:55 INFO [furu] _EnglishWetFile:2f774:058c2.load_or_create() returned
+2026-08-02 05:50:55 INFO [furu] Completed 16/16 WET chunks
+2026-08-02 05:50:55 INFO [furu] Finished creating 16 English WET files
+2026-08-02 05:50:55 INFO [furu] EnglishWetFiles:ae4fa:8672d.load_or_create() returned
+
+============================================================
+Original WET files requested: 64
+Files per output chunk:       4
+Generated WET chunks:         16
+Manifest:                     runs/aistation_64wet/wet_paths.txt
+============================================================
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f4b6076e6d9387d89fe8/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/f6407c8645a737f1e8af/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ea57c1233fce36f7644f/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a83907c8ae1b96f12ef3/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/bb1a4fd1d2284c10b928/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/4b1e2bc6aa74a8b2ec7b/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/866c0984dec5bd283d4d/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/a0aad95f92b5e8e83e01/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/877e6bda18610d0cb443/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/9e7f91c2057ed8869d4f/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/8b3d3ffb7b549623ef30/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/70d4109cdfeb88254668/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/ff536ce932e25bbca702/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/3c9fdfde8916a23fb069/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/09c41c3a3ab8d1dc01ba/data.warc.wet.gz
+/zhuliangzilu/assignment4-data/local-shared-data/furu/cs336_data/wet_files/_EnglishWetFile/2f77453343bff7bb63a2/058c2cdd4ec6e54ab833/data.warc.wet.gz

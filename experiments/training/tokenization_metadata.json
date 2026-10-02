@@ -1,0 +1,38 @@
+{
+  "tokenizer": {
+    "vocab_path": "artifacts/tinystories_bpe_10k/vocab.json",
+    "merges_path": "artifacts/tinystories_bpe_10k/merges.json",
+    "vocab_size": 10000,
+    "special_tokens": [
+      "<|endoftext|>"
+    ]
+  },
+  "valid": {
+    "input_path": "data/TinyStoriesV2-GPT4-valid.txt",
+    "output_path": "data/tinystories_tokens/tinystories_valid_tokens_uint16.bin",
+    "dtype": "uint16",
+    "input_size_bytes": 22502601,
+    "output_size_bytes": 10931766,
+    "token_count": 5465883,
+    "minimum_token_id": 10,
+    "maximum_token_id": 9999,
+    "elapsed_seconds": 17.145502791000126,
+    "tokens_per_second": 318793.97569309577,
+    "input_bytes_per_second": 1312449.1754077855,
+    "bytes_per_token": 4.116919626709902
+  },
+  "train": {
+    "input_path": "data/TinyStoriesV2-GPT4-train.txt",
+    "output_path": "data/tinystories_tokens/tinystories_train_tokens_uint16.bin",
+    "dtype": "uint16",
+    "input_size_bytes": 2227753162,
+    "output_size_bytes": 1082458694,
+    "token_count": 541229347,
+    "minimum_token_id": 9,
+    "maximum_token_id": 9999,
+    "elapsed_seconds": 1781.90651914,
+    "tokens_per_second": 303736.1057869708,
+    "input_bytes_per_second": 1250207.6501045513,
+    "bytes_per_token": 4.116098238848826
+  }
+}

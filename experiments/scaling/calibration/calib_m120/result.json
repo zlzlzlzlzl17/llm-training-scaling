@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "run_name": "calib_m120",
+  "total_parameters": 174348160,
+  "non_embedding_parameters": 117004160,
+  "approximate_non_embedding_parameters": 115605504,
+  "embedding_parameters": 28672000,
+  "lm_head_parameters": 28672000,
+  "total_train_tokens": 6553600,
+  "estimated_flops_non_embedding": 4600790777856000,
+  "estimated_flops_total_parameters": 6855648608256000,
+  "final_validation_loss": 6.2201707044795205,
+  "validation_perplexity": 502.789053038622,
+  "validation_history": [
+    {
+      "type": "validation",
+      "step": 100,
+      "tokens": 6553600,
+      "validation_loss": 6.2201707044795205,
+      "scored_validation_tokens": 262143,
+      "evaluation_seconds": 1.4122628411278129
+    }
+  ],
+  "optimizer_steps": 100,
+  "tokens_per_optimizer_step": 65536,
+  "wall_seconds": 81.31659456063062,
+  "validation_seconds": 1.4122628411278129,
+  "training_seconds": 79.9043317195028,
+  "training_tokens_per_second": 82018.08161046689,
+  "peak_allocated_gpu_memory_gib": 19.281425952911377,
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "torch_version": "2.4.0a0+f70bd71a48.nv24.06",
+  "cuda_runtime": "12.5",
+  "fused_optimizer": true,
+  "architecture": {
+    "vocab_size": 32000,
+    "context_length": 512,
+    "d_model": 896,
+    "num_layers": 12,
+    "num_heads": 14,
+    "head_dim": 64,
+    "d_ff": 2432,
+    "rope_theta": 1000000.0,
+    "rms_norm_eps": 1e-06
+  },
+  "optimization": {
+    "micro_batch_size": 32,
+    "gradient_accumulation_steps": 4,
+    "peak_lr": 0.0003,
+    "final_lr_frac": 0.1,
+    "warmup_frac": 0.05,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "weight_decay": 0.01,
+    "adam_eps": 1e-08,
+    "max_grad_norm": 1.0,
+    "precision": "bfloat16",
+    "attention_backend": "sdpa",
+    "seed": 0
+  }
+}

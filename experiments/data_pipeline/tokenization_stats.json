@@ -1,0 +1,9 @@
+{
+  "documents": 14486,
+  "tokens": 29684588,
+  "dtype": "uint16",
+  "tokenizer": "gpt2",
+  "eos_token_id": 50256,
+  "output_path": "runs/aistation_64wet/tokenized/train.bin",
+  "output_bytes": 59369176
+}

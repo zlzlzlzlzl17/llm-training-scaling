@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local tools and credentials
+.env
+.env.*
+!.env.example
+wandb/
+
+# Training data and checkpoints
+data/
+checkpoints/
+outputs/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+!tests/model/fixtures/ts_tests/model.pt
+!tests/systems/fixtures/*.pt
+
+# Large profiler artifacts stay in the local snapshot or a GitHub release.
+*.nsys-rep
+*.sqlite
+
+# Generated experiment detail; curated summaries remain tracked.
+experiments/**/train_rollouts.jsonl
+experiments/**/val_step_*.jsonl
+experiments/data_pipeline/combined_inspection_samples.json
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

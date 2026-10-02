@@ -1,0 +1,11 @@
+description: Language-model training entry point for a tokenized filtered corpus.
+entry_point: scripts/data_pipeline/train_filtered_language_model.py
+
+paths:
+  train_bin: outputs/data_pipeline/train.bin
+  valid_bin: data/validation/paloma_c4_100_domains_validation.bin
+  model_output: outputs/data_pipeline/model
+
+tracking:
+  wandb_entity: null
+  wandb_project: llm-training-scaling-data

@@ -1,0 +1,19 @@
+{
+  "input_path": "data/TinyStoriesV2-GPT4-train.txt",
+  "input_size_bytes": 2227753162,
+  "requested_vocab_size": 10000,
+  "actual_vocab_size": 10000,
+  "merge_count": 9743,
+  "special_tokens": [
+    "<|endoftext|>"
+  ],
+  "elapsed_seconds": 441.29890211600014,
+  "peak_rss_mb": 10905.30078125,
+  "longest_token": {
+    "token_id": 7160,
+    "byte_length": 15,
+    "hex": "206163636f6d706c6973686d656e74",
+    "bytes_repr": "b' accomplishment'",
+    "decoded_text": " accomplishment"
+  }
+}
