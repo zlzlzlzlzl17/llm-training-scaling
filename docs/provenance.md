@@ -11,5 +11,3 @@ This repository consolidates self-study work based on Stanford CS336 assignments
 | GRPO alignment | Assignment 5 | `stanford-cs336/assignment5-alignment`, commit `c2734a2` |
 
 Authored implementations, experiment drivers, and measured outputs were copied from the dated read-only snapshots at `../assignment1_snapshot_20261002/` and `../remote_snapshot_20261002/extracted/`. Those snapshots are intentionally outside this repository and are not intended for publication.
-
-Starter tests and interfaces are retained for correctness verification. Before public release, the repository owner should confirm the applicable course policy and license requirements and clearly identify upstream material in commit history and documentation.
